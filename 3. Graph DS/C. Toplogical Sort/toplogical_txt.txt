@@ -1,0 +1,24 @@
+
+- Ordering 
+- (u, v) - u is prerequsitic to v - directed grpah from u to v
+- Application 
+- toplogical not possible if cycle in grpah - DAG (direced Acyclic Graph)
+
+algo1 - by using dfs
+algo2 - by using bfs(kahansa algorithums)
+
+- ordering task dependency
+- minimum amount of finsihing all task 
+- cycle detection 
+- db table FK - dependency load parnet than child
+- find ordering of tables to load for db using all constraints
+- shortest path form a to x
+
+dfs
+
+to insert all vertex, all its outgoing vertices must already be insertd
+starting from the right, so that they can be after in the ordering 
+- first insert neighbour need to insert there neighbour so on 
+- LIFO - outupt is in reverse order so
+
+
